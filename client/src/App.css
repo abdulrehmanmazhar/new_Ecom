@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content{
+  position: relative;
+  top: 68px;
+  padding: 3rem 0 3rem 0;
+}
+.toast{
+  position: absolute;
+  top: 5rem;
+}

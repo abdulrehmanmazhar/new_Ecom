@@ -1,0 +1,26 @@
+.slide{
+    background-color: white;
+    width: 10rem;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    padding-top: 2rem;
+    height: calc(100vh - 68px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    z-index: 11;
+    position: fixed;
+
+}
+.slide a{
+    font-family: "Poppins";
+    text-decoration: none;
+    color: black;
+
+}
+.slide a:hover{
+    color: gray;
+}

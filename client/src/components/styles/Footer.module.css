@@ -1,0 +1,49 @@
+.container{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins';
+    display: flex;
+    gap: 2rem;
+    user-select: none;
+    /* flex-direction: column; */
+}
+.container a {
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    /* background: red; */
+}
+.container a:hover {
+    color: gray;
+}
+footer{
+    background-color: white;
+    padding: 2rem 2rem 0rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.Link{
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: "Poppins";
+}
+.ic{
+    margin: 2rem 1rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.ic:hover{
+    transition: all 0.3s ease-in-out;
+    color: gray;
+    
+}
+@media screen and (max-width:675px) {
+    .container{
+        flex-direction: column;
+    }
+}

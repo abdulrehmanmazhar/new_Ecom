@@ -1,0 +1,68 @@
+.container{
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+}
+.filters{
+    height: min-content;
+    /* display: none; */
+    font-family: 'Poppins';
+
+}
+.categories{
+    background-color: gainsboro;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+.prices{
+    background-color: gainsboro;
+    padding: 1rem;
+    border-radius: 1.5rem;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.filter{
+    font-family: 'Poppins';
+    margin: 1rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    user-select: none;
+    cursor: pointer;
+    width: fit-content;
+    padding: .5rem;
+    border-radius: 1.5rem;
+}
+.icon:hover{
+    background-color: darkgray;
+    transition: all ease-in-out .3s;
+}
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+.loadMore{
+    width: fit-content;
+    margin: auto;
+    margin-top: 4rem;
+}
+@media screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
